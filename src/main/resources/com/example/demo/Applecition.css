@@ -1,0 +1,39 @@
+#pane1{
+    -fx-background-color:#55c974;
+	-fx-align-content:center;
+}
+#pane2{
+-fx-background-color:linear-gradient(from 25% 25% to 100% 100%,#f58790,#fc9aec);
+ /*-fx-padding: 100;*/
+}
+
+#login{
+	-fx-background-radius:20;
+	-fx-background-color:#a3d1ff;
+	-fx-effect: dropshadow( one-pass-box , #6d91b5 , 8 , 0 , 2 , 1 );
+	
+}
+#exit{
+	-fx-background-radius: 16.4, 15;
+	 -fx-background-insets: -4;
+	-fx-background-color:#a3d1ff;
+	
+}
+
+#exit:focused{
+	-fx-background-radius: 16.4, 15;
+	 -fx-background-insets: -4;
+	-fx-background-color:red;
+}
+
+#exit:hover{
+	-fx-background-radius: 16.4, 15;
+	 -fx-background-insets: -4;
+	-fx-background-color:red;
+}
+#user{
+-fx-background-radius: 20;
+}
+#pass{
+-fx-background-radius: 20;
+}
